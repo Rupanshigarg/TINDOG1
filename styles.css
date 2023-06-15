@@ -1,0 +1,203 @@
+body{
+    font-family:"Montserrat";
+    text-align: center;
+}
+
+h2, h3{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    line-height: 2;
+}
+
+p{
+    color: #8f8f8f;
+    font-weight:700;
+    font-size: medium;
+}
+
+#title{
+    background-color: #ff4c68;
+}
+.mainheading{
+    font-family: 'Montserrat-ExtraBold', sans-serif;
+    text-align: left;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+    font-weight: 800;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+.title-image{ 
+    width: 60%;
+    padding-left: 50px;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+.download-button{
+    margin: 10px 10px 0px 0px;
+}
+
+.row{
+    margin-top: 70px;
+}
+
+.navbar-brand{
+    font-size: 35px;
+    padding-left: 0px;
+}
+
+.nav-item{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.navbar{
+    padding-left: 0px;
+}
+
+.h-features{
+    font-family: 'Montserrat-Bold-700', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.hello{
+    font-size: 50px;
+}
+
+.feature{
+    
+    padding: 0px 40px;
+}
+
+.pic{
+    font-size: 70px !important;
+    color: #ef8172;
+    margin-bottom: 20px;
+}
+
+.pic:hover{
+    color: rgb(242, 52, 52);
+}
+
+#features{
+    line-height: 2;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+
+}
+
+#testimonials{
+    padding: 7% 15%;
+    
+    background-color: #ff4c68;
+    color: white;
+}
+
+.testimonials-head{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    line-height: 2;
+    font-size: 45px;
+}
+
+.testimonials-image{
+    border-radius: 100%;
+    width: 15%;
+    margin: 20px;
+
+}
+
+
+#press{
+    background-color: #ff4c68;
+    
+    padding-bottom: 50px;
+}
+
+.press-img{
+    width: 15%;
+    margin: 20px 20px 0px;
+}
+
+
+#pricing{
+    margin-top: 70px;
+    
+}
+
+.pricing-content{
+    color: #8f8f8f;
+    font-weight:700;
+    font-size: medium;
+}
+
+.pricing-heading, .pricing-footer-head{
+    font-size: 45px;
+}
+
+.card{
+    padding: 0px;
+    height: 90%;
+    margin: 15px;
+}
+
+.card-header{
+    font-size: 30px;
+}
+
+.row{
+    margin: 10px;
+    padding: 10px;
+}
+
+@media (max-width: 992px){
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        margin-top: 50px;
+        text-align:center;
+    }
+}
+
+#cta{
+    background-color:#ff4c68;
+    
+    height: 500px;
+    padding-top: 150px;
+}
+
+.cta-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+    font-weight: 800;
+}
+
+.bt-cta{
+    font-weight: 600;
+    margin: 50px 20px;
+
+}
+
+#footer{
+    height: 250px;
+    padding-top: 100px;
+    
+}
+
+.ic{
+    padding: 10px;
+}
+
+#footer-content{
+    padding-top: 10px;
+    padding-bottom: 125px;
+}
